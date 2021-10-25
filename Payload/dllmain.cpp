@@ -2,11 +2,6 @@
 #include "pch.h"
 #include <windows.h>
 #include "detours.h"
-#include <windns.h>
-#include <iostream>
-
-using namespace std;
-
 
 typedef void(WINAPI* realGetLocalTime) (
     LPSYSTEMTIME lpSystemTime
