@@ -19,4 +19,4 @@ Add detours.lib to Linker additional libraries.
 
 **Hooked Function:**
 - GetLocalTime <br>
-- GetTimeFormatEx(...) <br>
+- GetTimeFormatEx <br>
