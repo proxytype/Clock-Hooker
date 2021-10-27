@@ -1,5 +1,10 @@
 # Clock-Hooker
+
+## Payload
 Hook GetLocalTime(...) in kernelbase.dll for manipulate system time steps.
+
+## Payload 2
+Hook GetTimeFormatEx(...) to overwrite clock GUI in process <Explorer.exe>
 
 ## Requierments:
 Microsoft Detours Library - https://github.com/microsoft/Detours
