@@ -32,7 +32,7 @@ int WINAPI _GetTimeFormatEx(
     
     memcpy(lpTimeStr, timeString, LENGTH * sizeof(wchar_t));
 
-    return 10;
+    return LENGTH;
 
 }
 
