@@ -6,7 +6,7 @@
 Hook GetLocalTime(...) in kernelbase.dll for manipulate system time steps.
 
 ## Payload 2
-Hook GetTimeFormatEx(...) in kernelbase.dll to overwrite clock strings in process (ex: Explorer.exe)
+Hook GetTimeFormatEx(...) in kernelbase.dll to overwrite clock strings in process (ex: explorer.exe)
 
 ## Requierments:
 Microsoft Detours Library - https://github.com/microsoft/Detours
